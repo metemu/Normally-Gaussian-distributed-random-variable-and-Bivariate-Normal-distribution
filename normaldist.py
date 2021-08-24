@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-mu, sigma = 5, 6 #since student ID is 501192606
+mu, sigma = 5, 6
 
 X = np.random.normal(mu, sigma, 5000)
 plt.plot(X, 'go')
